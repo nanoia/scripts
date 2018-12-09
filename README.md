@@ -25,4 +25,4 @@
 [A detailed installation guide](https://ymgblog.com/2017/09/27/170/)
    
 ### install rssbot   
-    wget -q --no-check-certificate https://raw.githubusercontent.com/nanoia/scripts/master/rssbot.sh -O rssbot.sh && chmod +x rssbot.sh && ./rssbot.sh -install
+    wget -q --no-check-certificate https://raw.githubusercontent.com/nanoia/scripts/master/rssbot.sh -O rssbot.sh && chmod +x rssbot.sh && ./rssbot.sh
