@@ -2,15 +2,15 @@
 ### install deluge
     wget -q --no-check-certificate https://raw.githubusercontent.com/nanoia/scripts/master/install-deluge.sh -O install-deluge.sh && chmod +x install-deluge.sh && ./install-deluge.sh -install
 
-安装
+install
 
     ./install-deluge.sh -install
 
-卸载
+uninstall
 
     ./install-deluge.sh -uninstall
 
-控制代码
+control
 
     /etc/init.d/deluged start
     /etc/init.d/deluged stop
