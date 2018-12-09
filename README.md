@@ -7,6 +7,7 @@
     ./install-deluge.sh -install
 
 卸载
+
     ./install-deluge.sh -uninstall
 
 控制代码
