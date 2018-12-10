@@ -1,4 +1,15 @@
 # scripts
+### BBR
+    wget -N --no-check-certificate https://raw.githubusercontent.com/nanoia/scripts/master/bbr.sh && bash bbr.sh install
+    
+Run
+
+    bash bbr.sh start
+    
+BBR state
+
+    sysctl net.ipv4.tcp_available_congestion_control
+    
 ### install deluge
     wget -q --no-check-certificate https://raw.githubusercontent.com/nanoia/scripts/master/install-deluge.sh -O install-deluge.sh && chmod +x install-deluge.sh && ./install-deluge.sh -install
 
