@@ -33,3 +33,6 @@ control
    
 ### install rssbot   
     wget -q --no-check-certificate https://raw.githubusercontent.com/nanoia/scripts/master/rssbot.sh -O rssbot.sh && chmod +x rssbot.sh && ./rssbot.sh
+
+### 测速脚本
+    wget -qO- bench.sh | bash
