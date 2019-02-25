@@ -12,7 +12,7 @@ apt install bsdtar -y
 
 tag=$(wget -qO- https://api.github.com/repos/iovxw/rssbot/releases/latest | grep 'tag_name' | cut -d\" -f4)
 
-cd /root && wget -qO- "https://github.com/iovxw/rssbot/releases/download/${tag}/rssbot-${tag}-linux.zip" | bsdtar -xvf-
+mkdir /root/rssbot && cd /root/rssbot && wget -qO- "https://github.com/iovxw/rssbot/releases/download/${tag}/rssbot-${tag}-linux.zip" | bsdtar -xvf-
 chmod +x /root/rssbot/rssbot
 
 read -p "Please paste telegram bot token for rssbot here: " token
