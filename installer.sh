@@ -10,6 +10,8 @@ sudo pip install flexget
 sudo python -m easy_install --upgrade pyOpenSSL
 sudo pip install --upgrade cryptography
 
+mkdir .flexget && cd .flexget && touch config.yml
+
 #install qBittorrent
 sudo add-apt-repository ppa:qbittorrent-team/qbittorrent-stable
 sudo apt-get update && sudo apt-get install qbittorrent-nox
