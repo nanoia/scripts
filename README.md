@@ -10,7 +10,7 @@ BBR state
 
     sysctl net.ipv4.tcp_available_congestion_control
     
-### seedbox installer
+### client installer
     wget -N --no-check-certificate https://raw.githubusercontent.com/nanoia/scripts/master/installer.sh && bash installer.sh
     
 ### install deluge [1](https://ymgblog.com/2017/09/21/106/) | [2](https://ymgblog.com/2017/09/21/106/)
