@@ -35,6 +35,7 @@ systemctl start qbittorrent
 sudo systemctl enable qbittorrent
 
 #install Deluge
+wget -q --no-check-certificate https://raw.githubusercontent.com/nanoia/scripts/master/install-deluge.sh -O install-deluge.sh && chmod +x install-deluge.sh && ./install-deluge.sh -install
 
 #install transmission
 sudo apt-get install transmission-daemon
